@@ -1,0 +1,20 @@
+{
+  "observed_date_ulaanbaatar": "2026-11-05",
+  "execution": "local-only",
+  "tests_passed": 28,
+  "tests_exit_code": 0,
+  "source_sha256": {
+    "research.py": "0785c84a68e1040a781c939a92795ae1880057df33d23dd0e7fdf9372071f732",
+    "rounds.py": "df9bc4cf7caf8301189cb8079217c119ec41601450b25f853de3e117ad6d4e07",
+    "experiment.py": "a3bb7af5a309da16fd1aae566721a72e43981407a5c74d07ebec593358d5a5ee",
+    "__main__.py": "d636ba3ef44c52a4c9bbc4e3fa4fabd6807cf263f47873a92e12a39e200d43db"
+  },
+  "data_sha256": "c43c4662415d6a01b5d4bc60dc1bdb2b89535864dddca43882b52f063edc7aa9",
+  "development_sha256": "a217c02e4d855f22e7b5c6afae88c333cf33582b48c4a088f8ef7e489e86dba7",
+  "report_sha256": "92315509f14c70f7ed22b3a6740767ce1a21e881f7faeec80244fd2324c8b864",
+  "default_baseline_development_reproduced": true,
+  "excluded_original_evaluation_bars": 21111,
+  "independent_review": "No important findings; original evaluation suffix is excluded, not unseen.",
+  "server_deployed": false,
+  "orders_sent": false
+}

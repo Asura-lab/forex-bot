@@ -1,0 +1,26 @@
+{
+  "source": "MetaTrader5.copy_rates_range",
+  "server": "XMGlobal-MT5 5",
+  "symbol": "EURUSD",
+  "timeframe": "M15",
+  "quote": "bid",
+  "account_mode": "demo",
+  "account_currency": "USD",
+  "requested_start": "2024-01-01T00:00:00+00:00",
+  "requested_end_exclusive": "2026-11-01T00:00:00+00:00",
+  "first_epoch": 1704153600,
+  "last_epoch": 1793400300,
+  "bars": 70370,
+  "sha256": "c43c4662415d6a01b5d4bc60dc1bdb2b89535864dddca43882b52f063edc7aa9",
+  "timestamp_note": "Raw MT5 epochs preserved; aware UTC request per API documentation; no inferred portal timezone.",
+  "broker_leverage": 100,
+  "modeled_leverage": 100,
+  "symbol_spec": {
+    "point": 1e-05,
+    "contract_size": 100000.0,
+    "volume_min": 0.01,
+    "volume_step": 0.01,
+    "volume_max": 50.0
+  },
+  "mt5_version": "5.0.6231"
+}

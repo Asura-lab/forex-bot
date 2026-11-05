@@ -1,0 +1,84 @@
+calibration h1-breakout20: {"trades": 79, "net_pnl": -21.799999999991655, "profit_factor": 0.7630213995093497, "lossless_sample": false, "positive_blocks": 1, "blocks": 4, "max_drawdown_pct": 1.5459999999997698, "halted_blocks": 0, "commission": 5.53, "carry_cost": 2.8000000000000003}
+calibration h1-breakout55: {"trades": 36, "net_pnl": -24.1528571428538, "profit_factor": 0.48295054894649786, "lossless_sample": false, "positive_blocks": 0, "blocks": 4, "max_drawdown_pct": 1.0588393933058993, "halted_blocks": 0, "commission": 2.5200000000000005, "carry_cost": 1.1}
+calibration h4-breakout20: {"trades": 0, "net_pnl": 0, "profit_factor": null, "lossless_sample": false, "positive_blocks": 0, "blocks": 4, "max_drawdown_pct": 0.0, "halted_blocks": 0, "commission": 0, "carry_cost": 0}
+calibration h1-pullback: {"trades": 59, "net_pnl": -28.839999999995037, "profit_factor": 0.5666044095232469, "lossless_sample": false, "positive_blocks": 1, "blocks": 4, "max_drawdown_pct": 1.8829590211805747, "halted_blocks": 0, "commission": 4.130000000000001, "carry_cost": 1.2000000000000002}
+calibration h4-pullback: {"trades": 0, "net_pnl": 0, "profit_factor": null, "lossless_sample": false, "positive_blocks": 0, "blocks": 4, "max_drawdown_pct": 0.0, "halted_blocks": 0, "commission": 0, "carry_cost": 0}
+calibration h1-reentry: {"trades": 101, "net_pnl": -58.95571428570561, "profit_factor": 0.495704771796958, "lossless_sample": false, "positive_blocks": 0, "blocks": 4, "max_drawdown_pct": 2.717535565934237, "halted_blocks": 0, "commission": 7.07, "carry_cost": 5.6}
+calibration h4-reentry: {"trades": 0, "net_pnl": 0, "profit_factor": null, "lossless_sample": false, "positive_blocks": 0, "blocks": 4, "max_drawdown_pct": 0.0, "halted_blocks": 0, "commission": 0, "carry_cost": 0}
+calibration m15-reentry: {"trades": 367, "net_pnl": -61.922857142823496, "profit_factor": 0.8080055986925506, "lossless_sample": false, "positive_blocks": 0, "blocks": 4, "max_drawdown_pct": 3.9566794617917567, "halted_blocks": 0, "commission": 25.69, "carry_cost": 8.5}
+{
+  "output": "artifacts\\discovery-2026-11-05\\bounded-v1-verified",
+  "selected": "m15-reentry",
+  "validation": {
+    "base": {
+      "trades": 165,
+      "net_pnl": -62.34999999998138,
+      "profit_factor": 0.6215609256996086,
+      "lossless_sample": false,
+      "positive_blocks": 0,
+      "blocks": 1,
+      "max_drawdown_pct": 6.24349999999766,
+      "halted_blocks": 0,
+      "commission": 11.55,
+      "carry_cost": 4.6
+    },
+    "stress": {
+      "trades": 0,
+      "net_pnl": 0,
+      "profit_factor": null,
+      "lossless_sample": false,
+      "positive_blocks": 0,
+      "blocks": 1,
+      "max_drawdown_pct": 0.0,
+      "halted_blocks": 0,
+      "commission": 0,
+      "carry_cost": 0
+    },
+    "blocks": {
+      "base": [
+        {
+          "initial_equity": 1000.0,
+          "final_equity": 937.6500000000237,
+          "return_pct": -6.234999999997626,
+          "max_drawdown_pct": 6.24349999999766,
+          "halted": false,
+          "trades": 165,
+          "skipped_signals": 544,
+          "skipped_cost_signals": 426,
+          "win_rate": 0.41818181818181815,
+          "profit_factor": 0.6215609256996086,
+          "input_bars": 14779,
+          "warmup_bars": 1,
+          "evaluated_bars": 14778,
+          "input_first_time": 1747884600,
+          "first_time": 1747885500,
+          "last_time": 1766541600,
+          "drawdown_method": "modeled adverse-first OHLC path; not tick verification"
+        }
+      ],
+      "stress": [
+        {
+          "initial_equity": 1000.0,
+          "final_equity": 1000.0,
+          "return_pct": 0.0,
+          "max_drawdown_pct": 0.0,
+          "halted": false,
+          "trades": 0,
+          "skipped_signals": 775,
+          "skipped_cost_signals": 569,
+          "win_rate": null,
+          "profit_factor": null,
+          "input_bars": 14779,
+          "warmup_bars": 1,
+          "evaluated_bars": 14778,
+          "input_first_time": 1747884600,
+          "first_time": 1747885500,
+          "last_time": 1766541600,
+          "drawdown_method": "modeled adverse-first OHLC path; not tick verification"
+        }
+      ]
+    }
+  },
+  "legacy_check": null,
+  "positive_across_historical_checks": false
+}

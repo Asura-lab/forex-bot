@@ -1,0 +1,38 @@
+[
+  {
+    "Name": "competitions-portal-linked-5p",
+    "Url": "https://cloud.xmtrading.com/static/pdf/System-PDFs/XMTrading-Terms-Conditions-Competitions-Program.pdf?v=41733ecf10f2e9b731f44ec9e346189c",
+    "Sha256": "ED88CD89515756CAFFB585A2AD700423EA54704FB267D9BBCB1B2001CB9B130D",
+    "pages": 5,
+    "pdf_creation_date": "2026-09-11 09:24:48+04:00",
+    "pdf_modification_date": "2026-09-11 09:29:59+04:00",
+    "observed_date_ulaanbaatar": "2026-11-05"
+  },
+  {
+    "Name": "competitions-landing-linked-7p",
+    "Url": "https://cloud.xmtrading.com/static/pdf/System-PDFs/XMTrading-Terms-and-Conditions-Competitions-Program.pdf?v=d3cd9730c16f269ca57389be98e6f057",
+    "Sha256": "28E88E30C1BB504D19692BDAB4F28EB0BB1077D51C704903A95AB3F3C91F15D3",
+    "pages": 7,
+    "pdf_creation_date": "2026-04-02 18:27:03+03:00",
+    "pdf_modification_date": "2026-04-02 18:58:48+03:00",
+    "observed_date_ulaanbaatar": "2026-11-05"
+  },
+  {
+    "Name": "tradexfin-client-agreement-v2",
+    "Url": "https://cloud.xmtrading.com/static/pdf/System-PDFs/Tradexfin-Client-Agreement-Terms-and-Conditions-of-Business-v2.pdf?v=920ae1a0fd0bcdae046a1f413e232815",
+    "Sha256": "760F036AC070171AE294288C35B2E3C6773A07F0B11C6045F574C82A98478C7D",
+    "pages": 97,
+    "pdf_creation_date": "2026-09-11 11:58:04+04:00",
+    "pdf_modification_date": "2026-09-11 13:18:44+04:00",
+    "observed_date_ulaanbaatar": "2026-11-05"
+  },
+  {
+    "Name": "order-execution-policy",
+    "Url": "https://cloud.xmtrading.com/static/pdf/System-PDFs/XMTrading-Order-Execution-Policy.pdf?v=9b5136edbfa0dc7af39f2abed2e165c9",
+    "Sha256": "B564D56834E391DC6292E8E6E6C313E01052B6E239FC4B25CB377A21CE39E0B1",
+    "pages": 4,
+    "pdf_creation_date": "2026-09-11 13:42:12+04:00",
+    "pdf_modification_date": "2026-09-11 13:42:42+04:00",
+    "observed_date_ulaanbaatar": "2026-11-05"
+  }
+]

@@ -1,0 +1,19 @@
+.venv/
+__pycache__/
+*.pyc
+.runtime/
+data/
+strategy/mt5/*.ex5
+strategy/mt5/*.log
+
+# Private browser/account screenshots stay on this computer.
+oracle-server*.png
+artifacts/rules-2026-11-05/*.png
+
+# Credentials and downloaded reference caches are not repository content.
+.env
+.env.*
+*.key
+*.pem
+**/secrets/
+docs/research/sources/**/*.pdf

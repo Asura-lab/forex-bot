@@ -1,0 +1,79 @@
+calibration h4-breakout20: {"trades": 106, "net_pnl": -202.2914285714115, "profit_factor": 0.5663030677984795, "lossless_sample": false, "positive_blocks": 0, "blocks": 4, "max_drawdown_pct": 8.464049199839586, "halted_blocks": 0, "commission": 11.690000000000001, "carry_cost": 32.3}
+calibration h4-pullback: {"trades": 68, "net_pnl": -70.75428571427423, "profit_factor": 0.7501979633730277, "lossless_sample": false, "positive_blocks": 0, "blocks": 4, "max_drawdown_pct": 5.493882731028044, "halted_blocks": 0, "commission": 7.3500000000000005, "carry_cost": 22.0}
+calibration h4-reentry: {"trades": 93, "net_pnl": 12.244285714301357, "profit_factor": 1.0388846797719418, "lossless_sample": false, "positive_blocks": 2, "blocks": 4, "max_drawdown_pct": 5.43835066159356, "halted_blocks": 0, "commission": 11.55, "carry_cost": 16.6}
+{
+  "output": "artifacts\\discovery-2026-11-05\\h4-feasibility-1pct-verified",
+  "selected": "h4-reentry",
+  "validation": {
+    "base": {
+      "trades": 45,
+      "net_pnl": -71.01749999999119,
+      "profit_factor": 0.6117299728004941,
+      "lossless_sample": false,
+      "positive_blocks": 0,
+      "blocks": 1,
+      "max_drawdown_pct": 9.45027044158715,
+      "halted_blocks": 0,
+      "commission": 5.11,
+      "carry_cost": 8.6
+    },
+    "stress": {
+      "trades": 45,
+      "net_pnl": -55.487142857144704,
+      "profit_factor": 0.6486853173418626,
+      "lossless_sample": false,
+      "positive_blocks": 0,
+      "blocks": 1,
+      "max_drawdown_pct": 7.883308482788243,
+      "halted_blocks": 0,
+      "commission": 6.72,
+      "carry_cost": 15.200000000000001
+    },
+    "blocks": {
+      "base": [
+        {
+          "initial_equity": 1000.0,
+          "final_equity": 928.982500000007,
+          "return_pct": -7.101749999999296,
+          "max_drawdown_pct": 9.45027044158715,
+          "halted": false,
+          "trades": 45,
+          "skipped_signals": 0,
+          "skipped_cost_signals": 0,
+          "win_rate": 0.35555555555555557,
+          "profit_factor": 0.6117299728004941,
+          "input_bars": 14779,
+          "warmup_bars": 1,
+          "evaluated_bars": 14778,
+          "input_first_time": 1747884600,
+          "first_time": 1747885500,
+          "last_time": 1766541600,
+          "drawdown_method": "modeled adverse-first OHLC path; not tick verification"
+        }
+      ],
+      "stress": [
+        {
+          "initial_equity": 1000.0,
+          "final_equity": 944.5128571428543,
+          "return_pct": -5.548714285714573,
+          "max_drawdown_pct": 7.883308482788243,
+          "halted": false,
+          "trades": 45,
+          "skipped_signals": 0,
+          "skipped_cost_signals": 0,
+          "win_rate": 0.35555555555555557,
+          "profit_factor": 0.6486853173418626,
+          "input_bars": 14779,
+          "warmup_bars": 1,
+          "evaluated_bars": 14778,
+          "input_first_time": 1747884600,
+          "first_time": 1747885500,
+          "last_time": 1766541600,
+          "drawdown_method": "modeled adverse-first OHLC path; not tick verification"
+        }
+      ]
+    }
+  },
+  "legacy_check": null,
+  "positive_across_historical_checks": false
+}

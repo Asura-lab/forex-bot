@@ -1,0 +1,22 @@
+[Unit]
+Description=MT5 non-trading runtime probe
+Wants=network-online.target
+Requires=mt5-xvfb.service
+After=network-online.target mt5-xvfb.service
+
+[Service]
+Type=simple
+User=ubuntu
+Environment=HOME=/home/ubuntu
+Environment=DISPLAY=:99
+Environment=WINEPREFIX=/home/ubuntu/.mt5
+Environment=WINEDEBUG=-all
+WorkingDirectory=/home/ubuntu/.mt5/drive_c/MT5
+ExecStart=/usr/bin/bash /home/ubuntu/mt5-verification/run-terminal.sh
+Restart=always
+RestartSec=5
+KillMode=control-group
+TimeoutStopSec=30
+
+[Install]
+WantedBy=multi-user.target

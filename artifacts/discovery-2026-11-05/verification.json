@@ -1,0 +1,38 @@
+{
+  "observed_date_ulaanbaatar": "2026-11-05",
+  "execution": "local-only",
+  "tests_passed": 38,
+  "tests_exit_code": 0,
+  "runs": {
+    "bounded-v1-verified": {
+      "selected": "m15-reentry",
+      "report_sha256": "bb990c3c51ae5335b95167160d3d2b6c21065fb0ad94230d43732f6614d59329",
+      "source_hashes": {
+        "research.py": "971dbd41eb9bec1c397d9639402e3be0a5c71bb80f237491b581672491564310",
+        "strategies.py": "8a035730c0c6d7df16595760b6dde3bdf1ffc47b07cc480bd6c948935f3da01c",
+        "discovery.py": "8016581ca8e8a11144ae50992b603efc8424b4e9989ad1cf318b17bce90b7d1e",
+        "__main__.py": "27cf5c2ee9470521ea9ba644a003bc091548e0b9dd8305da15a241dbde5b72de"
+      },
+      "parameters_and_numeric_results_reproduced": true,
+      "legacy_check_skipped": true
+    },
+    "h4-feasibility-1pct-verified": {
+      "selected": "h4-reentry",
+      "report_sha256": "1566ca7f7761cf1178f9e11d14ca80765ffab3842cac40bbd7a350f4aa0245a9",
+      "source_hashes": {
+        "research.py": "971dbd41eb9bec1c397d9639402e3be0a5c71bb80f237491b581672491564310",
+        "strategies.py": "8a035730c0c6d7df16595760b6dde3bdf1ffc47b07cc480bd6c948935f3da01c",
+        "discovery.py": "8016581ca8e8a11144ae50992b603efc8424b4e9989ad1cf318b17bce90b7d1e",
+        "__main__.py": "27cf5c2ee9470521ea9ba644a003bc091548e0b9dd8305da15a241dbde5b72de"
+      },
+      "parameters_and_numeric_results_reproduced": true,
+      "legacy_check_skipped": true
+    }
+  },
+  "data_sha256": "c43c4662415d6a01b5d4bc60dc1bdb2b89535864dddca43882b52f063edc7aa9",
+  "default_baseline_preserved": true,
+  "independent_review": "No important findings; strengthened non-vacuous causality tests.",
+  "orders_sent": false,
+  "server_deployed": false,
+  "profitable_strategy_confirmed": false
+}
