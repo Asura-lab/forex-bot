@@ -4,4 +4,4 @@
 *.service text eol=lf
 *.mq5 text eol=lf
 # Keep verification hashes valid by preserving archived report bytes.
-artifacts/** -text
+artifacts/** -text whitespace=cr-at-eol
